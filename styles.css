@@ -1,0 +1,197 @@
+
+
+/*general styles*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    min-height: 100%;
+}
+
+body{
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 1366px 50%;
+    min-height: 100%;
+    background-color: hsl(229, 57%, 11%);
+    font-size: 12px;
+}
+
+/* Box */
+
+#fylo{
+    width: 290px;
+    height: 165px;
+    background: hsl(228, 56%, 26%);
+    margin-right: 25px; 
+    border-radius: 10px 73px 10px 10px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    flex-direction: column;
+}
+
+#letras-general{
+    width: 440px;
+    height: 130px;
+    background: hsl(228, 56%, 26%);
+    margin-top: 37px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+#memory{
+    width: 150px;
+    height: 60px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 11px;
+    border-radius: 10px;
+    z-index: 1;
+    bottom: 50px;
+    left: 112px;
+    flex-direction: row;
+}
+
+#memory .ochocin{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: hsl(229, 57%, 11%);
+    margin-right: 5px;
+    font-size: 35px;
+}
+
+#memory .gb{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: hsl(229, 7%, 55%);
+}
+
+
+
+#fylo #cajas{
+   display: flex;
+}
+
+#fylo .caja{
+    width: 40px;
+    height: 40px;
+    background: hsl(229, 57%, 11%);
+    margin: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+
+.logo{
+    margin-left: 10px;
+    margin-bottom: 11px;
+}
+
+#logoycajas{
+    margin-left: 20px;
+}
+
+/*Barra de carga*/
+
+.barra-carga{
+    width: 85%;
+    height: 15px;
+    background: hsl(229, 57%, 11%);
+    border-radius: 15px;
+    margin-top: 27px;
+    top: -44px;
+    position: relative;
+}
+
+.barra-carga2{
+    width: 75%;
+    height: 11px;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 15px;
+    margin-left: 2px;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: 2px;
+    position: relative;
+
+}
+
+.ball{
+    width: 9px;
+    height: 9px;
+    background: hsl(243, 100%, 93%);
+    border-radius: 100px;
+    margin-top: 1px;
+    margin-right: 1px;
+    position: relative;
+
+}
+
+/*text*/
+
+#letras-general p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: hsl(243, 100%, 93%);
+    margin-right: 180px;
+    position: relative;
+    font-size: 12px;
+    bottom: 31px;
+}
+
+#letras-general .ocho{
+    font-weight: 700;
+    color: hsl(243, 100%, 93%);
+}
+
+#letras-general .numbers{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: hsl(243, 100%, 93%);
+    top: 10px;
+    position: relative;
+    bottom: 31px;
+    display: flex;
+    flex-direction: row;
+}
+
+#letras-general .mil-g{
+    position: relative;
+    left: 299px;
+}
+
+#triangle{
+    width : 34px; height: 40px;
+    content : ''; 
+    position: absolute; 
+    background: white;
+    transform: rotate(-360deg);
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    left: 116px;
+    top: 43px;
+
+}
